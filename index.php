@@ -11,7 +11,7 @@
 
 <body class="bg-light text-dark">
   <div class="container">
-    <h1>Sistema de Quejas y Denuncias</h1>
+    <h1>Sistema de Quejas y Denuncias 1.0</h1>
     <h2>Dirección de Seguridad Pública Municipal</h2>
 
       <?php include_once ('controller/denunciasController.php'); ?>
