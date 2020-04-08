@@ -5,7 +5,7 @@
     private $denuncias; //almacenar los registros de la tabla denuncias
 
     public function __construct(){ //para darle estado inicial a la clase
-      require_once ('Conectar.php');
+      require_once ('model/Conectar.php');
       //almacenar en la variable de clase la conexion
       //que devuelve el metodo estico de la clase Conexion
       $this->db = Conectar::conexion();
@@ -31,21 +31,19 @@
       //obtener el resultado de la Consulta "un RecordSet"
       //Con el while checa todos los registros cada vuelta de ciclo
       //Va guardando en el array cada registro
-      while($filas = $consulta->fetchAll(PDO::FETCH_ASSOC)){
+      while($filas = $consulta->fetch(PDO::FETCH_ASSOC)){
         $this->denuncias[] = $filas;
       }
 
       //Cerrar el RecordSet
-      $consulta -> closeCursor();
+      //$consulta -> closeCursor();
 
       //devolver lo almacenado en el array Completo
-      return $this->denuncias[];
+      return $this->denuncias;
 
       //Cerrar la conexion a la BD
       //$this->db = null;
     }
-
-
 
   }
 

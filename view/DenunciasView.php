@@ -13,6 +13,7 @@
     <table class="table table-striped">
       <thead>
         <tr>
+          <th scope="col">Id</th>
           <th scope="col">Tipo</th>
           <th scope="col">Nombre</th>
           <th scope="col">Correo</th>
@@ -23,15 +24,16 @@
         </tr>
       </thead>
       <tbody>
-
-      <?php foreach ($matrizDenuncias as $elemento): ?>
+      <?php //var_dump ($matrizDenuncias); ?>
+      <?php  foreach ($matrizDenuncias as $registro): ?>
         <tr scope="row">
-          <td><?php echo $elemento['tipo']; ?></td>
-          <td><?php echo $elemento['nombre']; ?></td>
-          <td><?php echo $elemento['correo']; ?></td>
-          <td><?php echo $elemento['asunto']; ?></td>
-          <td><?php echo $elemento['descripcion']; ?></td>
-          <td><?php echo $elemento['estatus']; ?></td>
+          <td><?php echo $registro['id']; ?></td>
+          <td><?php echo $registro['tipo']; ?></td>
+          <td><?php echo $registro['nombre']; ?></td>
+          <td><?php echo $registro['correo']; ?></td>
+          <td><?php echo $registro['asunto']; ?></td>
+          <td><?php echo $registro['descripcion']; ?></td>
+          <td><?php echo $registro['estatus']; ?></td>
           <td><input type="submit" id="verMas" class="btn btn-secondary btn-sm" value="Ver más"></td>
         </tr>
       <?php endforeach; ?>
