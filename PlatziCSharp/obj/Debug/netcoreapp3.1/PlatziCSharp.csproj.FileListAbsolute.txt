@@ -1,0 +1,13 @@
+G:\PlatziCSharp\bin\Debug\netcoreapp3.1\PlatziCSharp.exe
+G:\PlatziCSharp\bin\Debug\netcoreapp3.1\PlatziCSharp.deps.json
+G:\PlatziCSharp\bin\Debug\netcoreapp3.1\PlatziCSharp.runtimeconfig.json
+G:\PlatziCSharp\bin\Debug\netcoreapp3.1\PlatziCSharp.runtimeconfig.dev.json
+G:\PlatziCSharp\bin\Debug\netcoreapp3.1\PlatziCSharp.dll
+G:\PlatziCSharp\bin\Debug\netcoreapp3.1\PlatziCSharp.pdb
+G:\PlatziCSharp\obj\Debug\netcoreapp3.1\PlatziCSharp.csprojAssemblyReference.cache
+G:\PlatziCSharp\obj\Debug\netcoreapp3.1\PlatziCSharp.csproj.CoreCompileInputs.cache
+G:\PlatziCSharp\obj\Debug\netcoreapp3.1\PlatziCSharp.AssemblyInfoInputs.cache
+G:\PlatziCSharp\obj\Debug\netcoreapp3.1\PlatziCSharp.AssemblyInfo.cs
+G:\PlatziCSharp\obj\Debug\netcoreapp3.1\PlatziCSharp.dll
+G:\PlatziCSharp\obj\Debug\netcoreapp3.1\PlatziCSharp.pdb
+G:\PlatziCSharp\obj\Debug\netcoreapp3.1\PlatziCSharp.genruntimeconfig.cache
